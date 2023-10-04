@@ -1,0 +1,100 @@
+body {
+    color: #212121;
+    font-family: 'Open Sans', 'Arial';
+    font-size: 16px;
+    /* font-weight: 400; */
+    line-height: 28px; /* 175% */
+}
+
+
+a {text-decoration: none;}
+
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 0;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+
+.nav a {
+    color: #212121;
+}
+
+.user {
+    display: flex;
+    gap: 8px;
+}
+
+.user img {
+    border-radius: 50%;
+}
+
+.hero {
+    background-image: url('../img/fabrx/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size: cover; */
+    height: 784px;
+    color: #fff;
+    text-align: center;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.hero h1 {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 81px; /* 101.25% */
+    letter-spacing: -0.9px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.ctaBtn {
+    background-color: #fd7e14;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px; /* 139.13% */
+    padding: 16px 64px;
+    display: inline-block;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.food-types-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 64px 0;
+}
+.food-types-section a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #212121;
+    height: 165px;
+    width: 165px;
+    transition:all ease 1s;
+}
+.food-types-section a:hover {
+    background-color: #eee;
+}
+
+.food-types-section img {
+    display: inline-block;
+}
