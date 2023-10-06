@@ -155,7 +155,7 @@ a {text-decoration: none;}
 .loadbtn {
     border-radius: 3px;
     display: inline-flex;
-    padding: 40px 443px 0px 443px;
+    padding: 16px 443px 0px 443px;
     justify-content: center;
     align-items: center;
     gap: 10px;
